@@ -1,0 +1,204 @@
+:root{
+	--Iris: #4D5AE5;
+	--Ocean: #404BBF;
+	--NavyBlue: #2E2F42;
+	--Green: #2E2F42;
+	--Slate: #434455;
+	--LightSlate: #8E8F99;
+	--CornFlower: #E7E9FC;
+	--Cloud:#F4F4FD;
+	--NavyBlueModal:#2E2F42;
+	--Grey:#2E2F42;
+	--White: #ffffff;
+	--Dairy:#FCFCFC;
+
+	--FontFamily: "Roboto", sans-serif;
+  --SecondFamily: "Raleway", sans-serif;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--Slate);
+	background-color: var(--White);
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+	cursor: pointer;
+}
+.title-section{
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--NavyBlue);
+}
+
+.title-name{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--NavyBlue);
+}
+
+.logo{
+font-family: var(--SecondFamily);
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--Iris);
+}
+.logo-web{
+	color: var(--NavyBlue);
+}
+.logo-cloud{
+	color: var(--Cloud);
+}
+.header{
+}
+.header-nav{
+}
+.header-logo{
+}
+.header {
+}
+.header-nav {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+	color: var(--NavyBlue);
+}
+.header-link {
+	font-weight: 500;
+	color: var(--NavyBlue);
+}
+
+.header-link:hover , .header-link:focus{
+	
+ color: var(--Ocean);
+}
+
+.header-contacts {
+}
+.contacts {
+	font-style: normal;
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-link {
+	
+}
+.contacts-link:hover, .contacts-link:focus{
+	color: var(--Ocean);
+}
+.page-main {
+}
+.hero {
+	background-color: var(--NavyBlue);
+}
+.hero-slogan {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--White);
+}
+.hero-button {
+	border: none;
+	font-family: var(--FontFamily);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: var(--White);
+	background-color: var(--Iris);
+}
+.hero-button:hover, .hero-button:focus{
+	background-color: var(--Ocean);
+}
+.button-order {
+}
+.button {
+	cursor: pointer;
+}
+
+.features {
+}
+.features-title {
+}
+.hidden {
+}
+.features-list {
+}
+.list-features {
+}
+.list-features-item {
+}
+.list-features-title {
+}
+.list-features-descr {
+}
+.list-features_item {
+}
+.team {
+	background-color: var(--Cloud);
+}
+.team-title {
+	text-transform: capitalize;
+}
+.team-list {
+}
+.list-team {
+}
+.list-team-item {
+	background-color: var(--White);
+}
+.list-team-image {
+}
+.list-team-title {
+}
+.list-team-descr {
+}
+.portfolio {
+}
+.portfolio-title {
+	text-transform: capitalize;
+}
+.portfolio-list {
+}
+.portfolio-item {
+}
+.card {
+}
+.card-image {
+}
+.card-title {
+}
+.card-descr {
+}
+.footer {
+	background-color: var(--NavyBlue);
+}
+.footer-logo {
+}
+.footer_descr {
+	color: var(--Cloud);
+}
