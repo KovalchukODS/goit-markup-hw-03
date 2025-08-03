@@ -46,7 +46,18 @@ img{
 	max-width: 100%;
 	height: auto;
 }
-
+.visually-hidden{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
 .section {
 	padding: 120px 0;
 }
@@ -90,6 +101,7 @@ color: var(--Iris);
 	color: var(--Cloud);
 }
 .header{
+	border-bottom: 1px solid var(--CornFlower)
 }
 .header-container{
 	display: flex;
@@ -103,6 +115,7 @@ color: var(--Iris);
 }
 .header-nav {
 	display: flex;
+	align-items: center;
 }
 .header-logo {
 	margin-right: 76px;
@@ -186,6 +199,7 @@ color: var(--Iris);
 	background-color: var(--Ocean);
 }
 .button-order {
+	min-width: 169px
 }
 .button {
 	cursor: pointer;
@@ -207,6 +221,7 @@ color: var(--Iris);
 .list-features {
 }
 .list-features-item {
+	width: calc((100% - 72px) / 4)
 }
 .list-features-title {
 	margin-bottom: 8px;
@@ -235,13 +250,14 @@ color: var(--Iris);
 	background-color: var(--White);
 }
 .list-team-image {
-	margin-bottom: 32px;
+}
+.list-team-content{
+	padding: 32px 0
 }
 .list-team-title {
 	margin-bottom: 8px;
 }
 .list-team-descr {
-	padding-bottom: 32px;
 }
 .portfolio {
 }
@@ -279,6 +295,7 @@ color: var(--Iris);
 	background-color: var(--NavyBlue);
 }
 .footer-logo {
+	display: inline-block;
 	margin-bottom: 16px;
 }
 .footer_descr {
