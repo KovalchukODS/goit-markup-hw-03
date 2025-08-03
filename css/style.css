@@ -27,6 +27,12 @@ body{
 
 ul, ol {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 ,p{
+	margin: 0;
 }
 
 a {
@@ -34,6 +40,23 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.section {
+	padding: 120px 0;
+}
+.container{
+	max-width: 1158px;
+	margin: 0 auto;
+	padding: 0 15px;;
+
+}
+
 .title-section{
 	font-weight: 700;
 	font-size: 36px;
@@ -68,22 +91,34 @@ color: var(--Iris);
 }
 .header{
 }
-.header-nav{
+.header-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+
 .header-logo{
 }
 .header {
 }
 .header-nav {
+	display: flex;
 }
 .header-logo {
+	margin-right: 76px;
+	padding: 24px 0;
 }
 .header-list {
+	display: flex;
+	align-items: center;
+	gap: 40px;
 }
 .header-item {
 	color: var(--NavyBlue);
 }
 .header-link {
+	display: block;
+	padding: 24px 0;
 	font-weight: 500;
 	color: var(--NavyBlue);
 }
@@ -99,21 +134,35 @@ color: var(--Iris);
 	font-style: normal;
 }
 .contacts-list {
+	display: flex;
+	align-items: center;
+	gap: 40px;
 }
 .contacts-item {
 }
 .contacts-link {
-	
+	display: block;
+	padding: 24px 0;
 }
 .contacts-link:hover, .contacts-link:focus{
 	color: var(--Ocean);
 }
 .page-main {
 }
-.hero {
+.hero{
+	padding: 188px 0;
 	background-color: var(--NavyBlue);
 }
+.hero-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 48px;
+	
+}
 .hero-slogan {
+	max-width: 496px;
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.07;
@@ -122,7 +171,9 @@ color: var(--Iris);
 	color: var(--White);
 }
 .hero-button {
+	padding: 16px 32px;
 	border: none;
+	border-radius: 4px;
 	font-family: var(--FontFamily);
 	font-weight: 500;
 	font-size: 16px;
@@ -145,14 +196,20 @@ color: var(--Iris);
 .features-title {
 }
 .hidden {
+	display: none;
 }
 .features-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
 }
 .list-features {
 }
 .list-features-item {
 }
 .list-features-title {
+	margin-bottom: 8px;
 }
 .list-features-descr {
 }
@@ -162,43 +219,69 @@ color: var(--Iris);
 	background-color: var(--Cloud);
 }
 .team-title {
+	margin-bottom: 72px;
 	text-transform: capitalize;
 }
 .team-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
 }
 .list-team {
 }
 .list-team-item {
+	text-align: center;
 	background-color: var(--White);
 }
 .list-team-image {
+	margin-bottom: 32px;
 }
 .list-team-title {
+	margin-bottom: 8px;
 }
 .list-team-descr {
+	padding-bottom: 32px;
 }
 .portfolio {
 }
 .portfolio-title {
+	margin-bottom: 72px;
 	text-transform: capitalize;
 }
 .portfolio-list {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 48px;
+	column-gap: 24px;
 }
 .portfolio-item {
+	max-width: 360px;
 }
 .card {
+	
 }
 .card-image {
 }
+.card-content{
+	padding: 32px 16px;
+	border-bottom: 1px solid var(--CornFlower);
+	border-left: 1px solid var(--CornFlower);
+	border-right: 1px solid var(--CornFlower);
+}
 .card-title {
+	margin-bottom: 8px;
 }
 .card-descr {
 }
 .footer {
+	padding: 100px 0;
 	background-color: var(--NavyBlue);
 }
 .footer-logo {
+	margin-bottom: 16px;
 }
 .footer_descr {
+	max-width: 264px;
 	color: var(--Cloud);
 }
